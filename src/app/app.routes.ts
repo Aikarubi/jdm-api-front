@@ -15,7 +15,7 @@ export const routes: Routes = [
         ]
     },
     {
-        path: 'dcos',
+        path: 'docs',
         component: DocsLayoutComponent,
         children: [
             { path: '', component: DocsComponent },
