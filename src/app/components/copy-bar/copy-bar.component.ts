@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './copy-bar.component.css'
 })
 export class CopyBarComponent {
-
+  year: number = new Date().getFullYear();
 }
