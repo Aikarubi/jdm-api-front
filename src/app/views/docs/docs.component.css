@@ -72,7 +72,7 @@ span {
     color: var(--resalto);
 }
 
-/* Ajustes para pantallas con un max-width de 768px (móviles y tabletas pequeñas) */
+/* Ajustes para pantallas con un max-width de 768px*/
 @media (max-width: 768px) {
     .content {
         padding: 1.5rem 1rem;
