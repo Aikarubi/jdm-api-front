@@ -32,8 +32,7 @@ h1 {
 /* Estilos para pantallas con min-width: 768px */
 @media (max-width: 768px) {
     h1 {
-        font-size: 3.5rem;
-        margin-top: 2rem;
+        font-size: 4.5rem;
     }
 
     .video {
