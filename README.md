@@ -31,13 +31,13 @@ git clone https://github.com/yourusername/jdm-api-front.git
 cd jdm-api-front
 ```
 
-###2. Install dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-###3. Run the development server
+### 3. Run the development server
 
 ```bash
 ng serve
