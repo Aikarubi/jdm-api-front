@@ -18,7 +18,7 @@
         <h3>Pagination</h3>
         <p>The API uses a paging system to facilitate navigation between large volumes of data. You can use the parameters <span><code>?page</code></span> and <span><code>?limit</code></span> to monitor the results</p>
         <p><strong>Example of input:</strong></p>
-        <pre><span><code>GET https://api-jdm.onrender.com/v1/cars?page=1&limit=2</code></span></pre>
+        <pre><span><code>GET https://jdm-api.onrender.com/v1/cars?page=1&limit=2</code></span></pre>
         <p><strong>Example of output:</strong></p>
         <pre style="background-color: var(--primarioHover); color: var(--secundario); border-radius: 8px; padding: 1rem; overflow-x: auto; font-size: 1.2rem; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;">
     <code>&lbrace;
@@ -55,7 +55,7 @@
             <li><code class="resalto">/v1/cars/brands</code>: Displays all available brands (getAllBrands).</li>
             <li><code class="resalto">/v1/cars/stats</code>: Displays the average of all car statistics (getGlobalStat).</li>
         </ul>
-        <p>Basic example of use: <code class="resalto">https://api-jdm.onrender.com/v1/cars?brand=Mazda</code> to filter by brand.</p>
+        <p>Basic example of use: <code class="resalto">https://jdm-api.onrender.com/v1/cars?brand=Mazda</code> to filter by brand.</p>
     </section>
     
     <section class="content">
@@ -77,7 +77,7 @@
             <li><code class="resalto">/v1/cars?yearStart=1995&yearEnd=2000</code>: Filter by year range.</li>
         </ul>
         <p>In addition, it is possible to combine multiple parameters to obtain more accurate results. For example:</p>
-        <p><code class="resalto">https://api-jdm.onrender.com/v1/cars?brand=Subaru&engine=EJ20%20Turbo&transmission=Manual</code></p>
+        <p><code class="resalto">https://jdm-api.onrender.com/v1/cars?brand=Subaru&engine=EJ20%20Turbo&transmission=Manual</code></p>
     </section>
     
     <section class="content">
